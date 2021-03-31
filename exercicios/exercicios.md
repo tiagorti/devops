@@ -9,7 +9,7 @@
 
 https://github.com/jonathanbaraldi/devops
 
-
+Tete
 # Aula 4 - Ambiente
 	
 	Nesta aula, iremos verificar a instalação do Docker, e também iremos revisar a arquitetura do ambiente.
