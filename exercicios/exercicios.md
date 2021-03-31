@@ -9,7 +9,14 @@
 
 https://github.com/jonathanbaraldi/devops
 
-Tete
+IPS:
+
+Rancher-Server: 34.239.150.93
+k8s-1: 3.209.12.204
+k8s-2: 35.170.75.186
+k8s-3: 3.238.231.16
+
+
 # Aula 4 - Ambiente
 	
 	Nesta aula, iremos verificar a instalação do Docker, e também iremos revisar a arquitetura do ambiente.
@@ -18,15 +25,14 @@ Tete
 
 ```sh
 
-$ ssh -i devops-ninja.pem ubuntu@<ip>  - RancherSerber - HOST A
+$ ssh -i devops-ninja.pem ubuntu@<ip>  - RancherSerber - HOST A - Dockerok
 $ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-1         - HOST B
-$ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-2         - HOST C
+$ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-2         - HOST C - Dockerok
 $ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-3         - HOST D
 
 $ sudo su
 $ curl https://releases.rancher.com/install-docker/19.03.sh | sh
 $ usermod -aG docker ubuntu
-```
 
 
 
