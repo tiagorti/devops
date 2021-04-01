@@ -9,6 +9,8 @@
 
 https://github.com/jonathanbaraldi/devops
 
+Fominio:tiagorti-devops.com.br
+
 IPS:
 
 Rancher-Server: 34.239.150.93
@@ -26,7 +28,7 @@ k8s-3: 3.238.231.16
 ```sh
 
 $ ssh -i devops-ninja.pem ubuntu@<ip>  - RancherSerber - HOST A - Dockerok
-$ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-1         - HOST B
+$ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-1         - HOST B - Dockerok
 $ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-2         - HOST C - Dockerok
 $ ssh -i devops-ninja.pem ubuntu@<ip>  - k8s-3         - HOST D
 
